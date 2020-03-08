@@ -6,6 +6,7 @@
 <!-- code_chunk_output -->
 
 - [Summary](#summary)
+  - [Syntax](#syntax)
   - [Examples](#examples)
     - [Input](#input)
     - [Output](#output)
@@ -15,8 +16,15 @@
 
 ## Summary
 
+- 引数などの変数は大文字で記載する
+- 省略可能なものは `[]` で囲う
 - github は syntax highlighting に linguist を使用しているのでそれに基づく code line を指定する
 
+### Syntax
+
+```shell
+ls OPTION [FILE]
+```
 
 ### Examples
 
@@ -24,7 +32,7 @@
 
 
 \```shell
-ls - al
+ls -al
 \```
 
 \```python
